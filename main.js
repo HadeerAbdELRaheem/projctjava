@@ -14,7 +14,7 @@ let name, birthYear, age;
 while (true) {
     name = prompt("Enter your name:");
     
-    if (typeof name === "string" && name.trim() !== "") {
+    if (typeof name === "string" ) {
         break; 
     } else {
         alert("Please enter a valid name (a non-empty string).");
