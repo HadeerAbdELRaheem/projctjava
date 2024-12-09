@@ -40,8 +40,7 @@ age = new Date().getFullYear() - birthYear;
 document.write("Name: " + name + "<br>");
 document.write("Birth year: " + birthYear + "<br>");
 document.write("Age: " + age + "<br>");
-
+console.log(` name: ${name} age :${age}`)
 
 for (let i = 1; i <= 6; i++) document.write(`<h${i}>Welcome to my page</h${i}>`);
-
 
