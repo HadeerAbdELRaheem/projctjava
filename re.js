@@ -66,9 +66,9 @@ for(i=0;i<5;i++)
     let num1= parseInt(prompt("Enter Five Numbers"));
     num2.push(num1)
 }
-  document.write(`<span style="color:${colorChoice}; font-weight:bold;">Original Array:</span> ${num2}<br>`);
-  document.write(`<span style="color:${colorChoice}; font-weight:bold;">Ascending:</span> ${num2.sort((a, b) => a - b)}<br>`);
-  document.write(`<span style="color:${colorChoice}; font-weight:bold;">Descending:</span> ${num2.sort((a, b) => b - a)}<br>`);
+  document.write(`<span style="color:${colorChoice}; font-weight:bold;">Original Array:</span> ${num2.join(" -")}<br> <br>`);
+  document.write(`<span style="color:${colorChoice}; font-weight:bold;">Ascending:</span> ${num2.sort((a, b) => a - b).join(" - ")}<br><br>`);
+  document.write(`<span style="color:${colorChoice}; font-weight:bold;">Descending:</span> ${num2.sort((a, b) => b - a).join(" -")}<br><br>`);
 
 console.log(`%cOriginal Array:`, `color: ${colorChoice}; font-weight: bold;`, num2);
 console.log(`%cAscending:`, `color: ${colorChoice}; font-weight: bold;`, num2.sort((a, b) => a - b));
@@ -80,17 +80,16 @@ let area = Math.PI * Math.pow(radius, 2);
 alert(`The area of the circle is: ${+area.toFixed(2)}`);
 console.log(`Radius: ${radius}, Area: ${+area.toFixed(2)}`);
 
-
-
-
+//
 let numbers = parseFloat(prompt("Enter the number of square root:"));
-
 let squre = Math.sqrt(numbers);
 alert(`The square of the number is: ${squre.toFixed(2)}`);
 console.log(`numbers: ${numbers}, squre: ${squre.toFixed(2)}`);
 
-let number = parseFloat(prompt("Enter the Angle of the Number:"));
 
+//
+
+let number = parseFloat(prompt("Enter the Angle of the Number:"));
 let angle = Math.cos(number);
 alert(`The angle of the number is: ${angle.toFixed(2)}`);
 console.log(`number: ${number}, angle: ${angle.toFixed(2)}`);
