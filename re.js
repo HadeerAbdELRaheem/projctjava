@@ -107,23 +107,23 @@ function findLargestWord() {
       return;
   }
 
-  // تحويل السلسلة النصية إلى مصفوفة من الكلمات
+  
   let words = inputString.split(" ");
   
-  // تعيين متغير لتخزين أطول كلمة
+
   let largestWord = "";
   
-  // لفّ المصفوفة للبحث عن أطول كلمة
+ 
   for (let i = 0; i < words.length; i++) {
-      // مقارنة طول الكلمة الحالية مع أطول كلمة
+      
       if (words[i].length > largestWord.length) {
-          largestWord = words[i];  // إذا كانت الكلمة أطول، يتم تحديث أطول كلمة
+          largestWord = words[i];  
       }
   }
   
-  // إظهار النتيجة في نافذة alert
+ 
   alert("The largest word is: " + largestWord);
 }
 
-// استدعاء الدالة
+
 findLargestWord();
