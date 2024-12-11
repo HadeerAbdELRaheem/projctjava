@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+  
+        #list{
+            text-align: center;
+            align-items: center;
+            left: 40%; 
+           padding: 12px;
+           font-size: 16px;
+           width: 300px;
+            border-radius: 8px;
+           
+
+        }
+        .task {
+            margin: 10px 0;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 10px;
+            left: 65%;
+           
+        }
+        .task input[type="text"] {
+            text-align: center;
+            border-radius: 10px;
+            padding: 5px;
+            
+        }
+        .task button {
+            margin-left: 5px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            cursor: pointer
+        }
+      
+        table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+    
+    </style>
+</head>
+<body>
+    <h2>To Do List</h2>
+    <form>
+        <input id="list"  type="text" placeholder="Add your Task Here">
+        <input class="task" onclick="addTask()" type="button" value="Add">
+    </form>
+
+    <div id="tasksContainer"></div>
+ 
+    <table id="dataTable">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Body</th>
+          </tr>
+        </thead>
+        <tbody id="res">
+          
+        </tbody>
+      </table>
+<h2>Get Data by ID</h2>
+ <input type="text" id="databyid" placeholder="Enter Post ID">
+<button onclick="GetDataBYID()">Get Data</button>    
+    <table id="dataTable1">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Body</th>
+          </tr>
+        </thead>
+        <tbody id="res1">
+          
+        </tbody>
+      </table>
+    <script src="test.js"></script>
+
+</body>
+</html>
