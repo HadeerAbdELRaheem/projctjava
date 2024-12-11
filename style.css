@@ -1,0 +1,146 @@
+header li {
+
+    display: inline;
+    padding: 20px;
+    margin-left:auto;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.aa{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width:100% ;
+    
+}
+.aa:hover{
+    background-color: rgb(223, 97, 97);
+    position: absolute;
+   height:60px ;
+    width:  80px;
+}
+
+  
+.btn{
+    border-radius: 12px;
+
+}
+.image {
+    float: right;
+    position: absolute;
+    top:0px;
+    right:0px;
+    height: 100%;
+}
+header{
+    background-color:darkgray;
+    height:80px ;
+    padding: 20px;
+    position: relative;
+}
+.bdiv{
+    display: inline-block;
+    width: 50%;
+  margin: auto;
+  float: left;
+   
+}
+footer{
+
+    text-align: center;
+    color: darkcyan;
+}
+.imge{
+    float: right;
+    position: absolute;
+    top:0px;
+    right:0px;
+    height: 100%;
+    border: 2px solid black;
+    
+    
+}
+.rclass{
+    color: red;
+}
+
+.sp{
+    color: blue;
+}
+#bh2{
+    text-align:left;
+    color:rgb(28, 58, 28);
+}
+#ip{
+    border: 3px dashed rgb(49, 118, 89) ;
+    text-align:left;
+    background-color: rgb(169, 211, 173);
+}
+/*
+table{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width:800px;
+    margin:auto;
+    border-radius: 12px;
+    position: relative;
+    background-color:rgb(192, 221, 192);
+}*/
+#sdiv{
+    text-align: center;
+}
+.form {
+    background-color:rgb(221, 241, 221);
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+    margin: auto;
+    border: 5px solid #c8f4c0;
+    text-align: center;
+  }
+  table {
+    border: 1px;
+    width: 100%;
+    font-size: 100%;
+    
+  }
+  .form h3 {
+    color: #588162;
+    text-align: left;
+    
+  }
+  
+  .form p {
+    border: 1px dashed #8ac172;
+   text-align: left;
+   background-color: #94e994;
+  }
+  
+  .ftd {
+   
+      
+      padding: 12px;
+      background-color: rgb(169, 211, 173);
+      text-align: right;
+      border-bottom: 1px solid #ddd;
+      font-weight: bold;
+  
+  }
+  input ,select ,textarea{
+      width: 200%;
+      padding: 12px;
+      margin: 0px ;
+      border: 1px solid #32ae72;
+      border-radius: 4px;
+  }
+  
+  .rowspanInput{
+      width: 100%;
+      box-sizing: border-box;
+  }
+  .bt{
+      
+      width: auto;
+      
+  }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="imge" src="ITI_logo.png" height="80" alt="ITI_logo" />
+        <ul>
+            <li id="top"><a class="aa" href="index.html">Home</a></li>
+            <li><a class="aa" href="home.html">Road Map</a></li>
+            <li><a class="aa" href="form.html">Registration Form</a></li>
+            
+            <li><a class="aa" href="https://iti.gov.eg/contact-us">Contact us</a></li>
+          </ul>
+    </header>
+    <div class="form">
+        <h3>Register -Create Account</h3>
+        <p>Field with <span class="rclass">*</span>required</p>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td class="ftd"><label ><span class="rclass">*</span>Your Name </label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td class="ftd"><label ><span class="rclass">*</span>E-mail ID </label></td>
+                    <td><input type="email" required ></td>
+                </tr>
+                <tr>
+                    <td class="ftd"><label >Alternative E-mail ID</label></td>
+                    <td><input type="email" ></td>
+                </tr>
+                <tr>
+                    <th class="ftd" rowspan="2"><label >Your Phone Number</label></td>
+                    <td  style="font-size: small;" ><label >country code </label></td>
+                    <td ><label >city code</label></td>
+                    <td ><label >phone number</label></td>
+                </tr>
+                <tr>
+                    <td ><input type="number" class="rowspanInput"></td>
+                    <td><input type="number" class="rowspanInput"></td>
+                    <td><input type="number" class="rowspanInput"></td>
+                </tr>
+                <tr>
+                    <td class="ftd"><label >Mobile Number</label></td>
+                    <td ><input type="number"></td>
+                </tr>
+                <tr>
+                    <td class="ftd"><label for="add"><span class="rclass">*</span>Your Postal Address </label></td>
+                    <td><textarea id="add"  name ="add"rows="5" required> </textarea>
+                </tr>
+                <tr>
+                    <td class="ftd"><label for="cnt"> <span class="rclass">*</span>country</label></td>
+                    <td>
+                        <select name ="country" id="country"   required>
+                            <option value="" disabled selected>****************************Select*************************** </option>
+                            <option value ="Egypt">Egypt</option>
+                            <option value ="UAE">UAE</option>
+                            <option value ="USA">USA</option>
+                            <option value ="England">England</option>
+                    </select>
+                </tr>
+                <tr>
+                    <td class="ftd"><label ><span class="rclass">*</span>Password </label></td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td class="ftd"><label ><span class="rclass">*</span>Re-Enter Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                
+            </table>
+        
+            
+            <input class="bt" type="checkbox" name="terms" required>
+            <label for="javascript">I accept all<a href=""><span class="sp">terms of use</span></a> </label> 
+             <br>
+             
+            <input class="bt" type="submit"  value="Continte>>">
+            <input class="bt" type="reset" value="reset"> 
+
+           
+        </form> 
+    </div>  
+
+<footer>
+    
+      <hr />
+      <br />
+      <p >
+        Copyright 2021 by Noha Salah &#174;. All Rights Reserved
+      </p>
+  </footer>  
+</body>
+</html>
